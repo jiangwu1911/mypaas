@@ -1,8 +1,8 @@
 #!/bin/bash
 
 export DEIS_NUM_INSTANCES=3
-export DEIS_CIDR=10.21.12.0/24
-export DEIS_DNS=10.21.12.3,8.8.8.8
+export DEIS_CIDR=10.0.0.0/16
+export DEIS_DNS=10.0.0.3,8.8.8.8
 
 ( cd ../deis
   make discovery-url

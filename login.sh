@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ssh -i ~/.ssh/deis core@192.168.145.53
+ssh -i ~/.ssh/deis core@192.168.145.51

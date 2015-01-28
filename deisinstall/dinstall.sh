@@ -2,7 +2,7 @@
 
 eval `ssh-agent -s`
 ssh-add ~/.ssh/deis
-export DEISCTL_TUNNEL=192.168.145.52
+export DEISCTL_TUNNEL=192.168.145.51
 
 deisctl config store-gateway set image=192.168.145.110:5000/deis/store-gateway:v1.2.2
 deisctl config store-monitor set image=192.168.145.110:5000/deis/store-monitor:v1.2.2
